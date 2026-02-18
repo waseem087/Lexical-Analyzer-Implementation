@@ -7,10 +7,6 @@
 
 SimpleLang is a custom imperative programming language designed for educational purposes to demonstrate lexical analysis concepts.
 
-## Team Members
-
-- Student 1: [Your Roll Number]
-- Student 2: [Partner Roll Number]
 
 ---
 
