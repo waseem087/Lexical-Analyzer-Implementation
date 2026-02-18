@@ -258,8 +258,8 @@ java ManualScanner ../tests/test5.lang > ../tests/results_test5.txt
 ## Project Structure
 
 ```
-22i1234-22i5678-A/
-├── src/
+Lexical-Analyzer-Implementation
+
 │   ├── ManualScanner.java      # Manual DFA-based scanner
 │   ├── Token.java              # Token representation
 │   ├── TokenType.java          # Token type enumeration
@@ -267,18 +267,6 @@ java ManualScanner ../tests/test5.lang > ../tests/results_test5.txt
 │   ├── ErrorHandler.java       # Error detection and reporting
 │   ├── Scanner.flex            # JFlex specification
 │   └── Yylex.java             # Generated JFlex scanner
-├── docs/
-│   ├── Automata_Design.pdf    # NFA/DFA diagrams
-│   ├── README.md              # This file
-│   ├── LanguageGrammar.txt    # Formal grammar
-│   └── Comparison.pdf         # Scanner comparison
-├── tests/
-│   ├── test1.lang             # All valid tokens
-│   ├── test2.lang             # Complex expressions
-│   ├── test3.lang             # String/char escapes
-│   ├── test4.lang             # Lexical errors
-│   ├── test5.lang             # Comments
-│   └── TestResults.txt        # Test outputs
 └── README.md                  # Project documentation
 ```
 
@@ -287,13 +275,13 @@ java ManualScanner ../tests/test5.lang > ../tests/results_test5.txt
 ## Features Implemented
 
 ### Part 1: Manual Scanner
-- ✓ Regular expression-based token recognition
-- ✓ DFA-based matching with longest match principle
-- ✓ All token types from specification
-- ✓ Pre-processing and whitespace handling
-- ✓ Line and column tracking
-- ✓ Symbol table for identifiers
-- ✓ Statistics display
+-  Regular expression-based token recognition
+-  DFA-based matching with longest match principle
+-  All token types from specification
+-  Pre-processing and whitespace handling
+-  Line and column tracking
+-  Symbol table for identifiers
+-  Statistics display
 
 ### Part 2: JFlex Scanner
 - ✓ Complete JFlex specification
