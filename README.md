@@ -284,16 +284,16 @@ Lexical-Analyzer-Implementation
 -  Statistics display
 
 ### Part 2: JFlex Scanner
-- ✓ Complete JFlex specification
-- ✓ Pattern matching with correct priority
-- ✓ Compatible Token class
-- ✓ Output comparison
+-  Complete JFlex specification
+-  Pattern matching with correct priority
+-  Compatible Token class
+-  Output comparison
 
 ### Part 3: Error Handling
-- ✓ Invalid character detection
-- ✓ Malformed literal detection
-- ✓ Invalid identifier detection
-- ✓ Unterminated string/char detection
+-  Invalid character detection
+-  Malformed literal detection
+-  Invalid identifier detection
+-  Unterminated string/char detection
 - ✓ Unclosed comment detection
 - ✓ Error recovery and continuation
 - ✓ Comprehensive error reporting
