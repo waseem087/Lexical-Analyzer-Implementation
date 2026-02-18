@@ -294,9 +294,9 @@ Lexical-Analyzer-Implementation
 -  Malformed literal detection
 -  Invalid identifier detection
 -  Unterminated string/char detection
-- ✓ Unclosed comment detection
-- ✓ Error recovery and continuation
-- ✓ Comprehensive error reporting
+-  Unclosed comment detection
+-  Error recovery and continuation
+-  Comprehensive error reporting
 
 ---
 
